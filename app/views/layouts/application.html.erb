@@ -7,8 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= render 'shared/navbar' %>
+  <%= yield %>
+  <footer class="footer">
+    <div class="container text-center">
+      <hr>
+      <p class="text-muted">Moregate Club © 2015</p>
+    </div>
+  </footer>
 </body>
 </html>
