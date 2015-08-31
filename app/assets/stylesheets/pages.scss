@@ -1,0 +1,147 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.btn-client-login{
+  margin-top: 7px;
+  margin-right: 10px;
+  background-color: #6FA8DC;
+  border-radius: 0px;
+  color: #FFFFFF;
+  padding: 5px 20px 5px 20px;
+
+  :hover{
+    color: #FFFFFF;
+  }
+}
+
+.btn-client-signup{
+  margin-top: 7px;
+  background-color: #0B5394;
+  border-radius: 0px;
+  color: #FFFFFF;
+  padding: 5px 15px 5px 15px;
+
+  :hover{
+    color: #FFFFFF;
+  }
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+
+  .navbar-nav{
+    li{
+      a.text-blue-common{
+        color: #0B53AE;
+      }
+    }
+  }
+
+  .navbar-right{
+    margin-right: 0px;
+  }
+
+  .container {
+    .navbar-brand {
+      /*margin-left: -30px;*/
+      .logo-text-left{
+        color: #6FA8DC;
+      }
+
+      .logo-text-right{
+        color: #0B5394;
+      }
+    }
+  }
+}
+
+header{
+    .title{
+      margin-top: 20px;
+      font-size: 20px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+    .container {
+      padding-top: 15px;
+      background-color: #3B5999;
+      div.box-item{
+        .left{
+          .row{
+            color: #FFFFFF;
+            font-size: 16px;
+          }
+        }
+
+        .right{
+          text-align: center;
+          .title-rate{
+            margin: 0px;
+            font-size: 20px;
+            color: #FFFFFF;
+          }
+          table{
+            background-color: #FFFFFF;
+            th, td {
+              border: 1px solid;
+              text-align: center;
+            }
+          }
+        }
+
+        .btn-apply{
+          background-color: #93C47D;
+          color: #FFFFFF;
+          border-radius: 0px;
+          font-size: 20px;
+        }
+      }
+    }
+}
+
+.header-banner{
+  height: 150px;
+  margin-top: -21px;
+  background-image: url('icons/header-banner-bg.png');
+  background-size: auto 150px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-15 {
+  width: 20%;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+  }
+}
+
+.box-banner-item{
+  .text-title{
+    color: #0B53BF;
+    line-height: 20px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}

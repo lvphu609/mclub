@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/twbs/bootstrap-sass.git
+  revision: 8a10d7b95831b39e5ec7c44dad7ece8a53054223
+  branch: next
+  specs:
+    bootstrap-sass (3.3.5.1)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,6 +46,9 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
+    autoprefixer-rails (5.2.1.2)
+      execjs
+      json
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
@@ -144,6 +156,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
+  bootstrap-sass!
   byebug
   coffee-rails (~> 4.1.0)
   execjs
