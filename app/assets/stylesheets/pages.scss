@@ -55,6 +55,13 @@
       }
     }
   }
+
+  .btn-client-signup, .btn-client-login{
+    a{
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+  }
 }
 
 header{
@@ -143,5 +150,52 @@ header{
     line-height: 20px;
     font-size: 16px;
     margin-top: 10px;
+    font-weight: bold;
   }
+}
+
+.form-login{
+  .panel-title{
+    font-size: 30px;
+    color: #0B5394;
+  }
+
+  .panel-heading{
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+  }
+
+  .login-panel{
+    border: none;
+  }
+}
+
+
+.form-signup{
+  .panel-title{
+    font-size: 30px;
+    color: #0B5394;
+  }
+
+  .panel-heading{
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+  }
+
+  .login-panel{
+    border: none;
+  }
+
+  .box-account-left{
+    font-size: 35px;
+    margin-top: 250px;
+    .text-left{
+      color: #9c9c9c;
+    }
+
+    .text-right{
+      color: #0B5394;
+    }
+  }
+
 }
